@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Chatbot</title>
+    <style>
+      #root {
+        height: 80vh;
+      }
+      /* nomalize body css */
+      body {
+        margin: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="root">
+      <sbx-chat-bot
+        api-host="api-staging.shopboxo.io"
+        token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkzNDY3ODMyLCJpYXQiOjE2OTA4NzU4MzIsImp0aSI6IjZmZDY3ODY2YjQ1NzQyZTBhNzZjMzQ3MjlmYmQ0Yzc3IiwidXNlcl9pZCI6MTUzNTE1fQ.M-ZfJdHyA466pHpwRzq1QN_5qiGzop-BZIzZRT8wTa8"
+        avatar="https://shopboxo-media.s3.amazonaws.com/media/shopify/icons/icon_Up6tsvm.png"
+      ></sbx-chat-bot>
+    </div>
+    <script type="module" src="/app/app.tsx"></script>
+  </body>
+</html>

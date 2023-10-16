@@ -1,0 +1,102 @@
+[
+  {
+    "role": "assistant",
+    "widgets": [
+      {
+        "type": "p",
+        "children": "Great! You've provided all the necessary information to create the product."
+      },
+      { "type": "p", "children": "Here's a summary of the new product." },
+      {
+        "type": "ul",
+        "children": [
+          { "type": "li", "children": "Title: Coffee" },
+          { "type": "li", "children": "Price: $2" },
+          { "type": "li", "children": "Category: Drinks" }
+        ]
+      },
+      {
+        "type": "p",
+        "children": "Here's a link to the product if you want to upload images or check other details."
+      },
+      {
+        "type": "x-line-chart",
+        "props": {
+          "descriptions": [
+            { "label": "Price", "content": "$2" },
+            { "label": "Category", "content": "Drinks" }
+          ],
+          "data": [
+            {
+              "x": "Page A",
+              "y2": 4000,
+              "y1": 2400
+            },
+            {
+              "x": "Page B",
+              "y2": 3000,
+              "y1": 1398
+            },
+            {
+              "x": "Page C",
+              "y2": 2000,
+              "y1": 9800
+            },
+            {
+              "x": "Page D",
+              "y2": 2780,
+              "y1": 3908
+            },
+            {
+              "x": "Page E",
+              "y2": 1890,
+              "y1": 4800
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "widgets": [
+      {
+        "type": "x-markdown",
+        "children": "I'm sorry for any confusion. When creating a product, the parameters you need to provide are as follows:\n\n**Required Parameters:**\n1. **Title:** This is the name of your product.\n2. **Categories:** These are the groups or classifications your product belongs to. \n3. **Price:** This is the selling price of your product.\n\n**Optional Parameters:**\n1. **Sale Price:** This is a discounted price if applicable. It must be lower than the original price.\n2. **Description:** Detailed information about your product.\n3. **Stock Quantity:** The number of items of your product available in stock.\n4. **Weight:** The weight of your product in grams.\n5. **Per Item Type:** This is the unit type for your product. It can be a piece, kg, gm, set, or dozen.\n6. **Per Item Quantity:** This is the quantity of the product per unit.\n7. **Variants:** These are the different types or versions of your product.\n\nLet's start with the required parameters first. Please provide the title of your product."
+      },
+      {
+        "type": "x-card",
+        "props": {
+          "title": "Coffee",
+          "descriptions": [
+            { "label": "Price", "content": "$2" },
+            { "label": "Category", "content": "Drinks" }
+          ],
+          "buttons": [
+            {
+              "content": "View Product",
+              "href": "https://web.shopboxo.io/shop-product/231470"
+            },
+            {
+              "content": "Share",
+              "href": "https://web.shopboxo.io/shop-product/231470"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "widgets": [
+      {
+        "type": "x-markdown",
+        "children": "Sure, here is the information in a table format:\n\n| Parameter | Description | Required/Optional |\n| --- | --- | --- |\n| Title | The name of your product | Required |\n| Categories | The groups or classifications your product belongs to | Required |\n| Price | The selling price of your product | Required |\n| Sale Price | A discounted price if applicable. It must be lower than the original price | Optional |\n| Description | Detailed information about your product | Optional |\n| Stock Quantity | The number of items of your product available in stock | Optional |\n| Weight | The weight of your product in grams | Optional |\n| Per Item Type | The unit type for your product. It can be a piece, kg, gm, set, or dozen | Optional |\n| Per Item Quantity | The quantity of the product per unit | Optional |\n| Variants | The different types or versions of your product | Optional |\n\nLet's start with the required parameters first. Please provide the title of your product."
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": "hello"
+  }
+]

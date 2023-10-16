@@ -1,0 +1,32 @@
+{
+  "prettier": true,
+  "extends": ["plugin:tailwindcss/recommended", "xo-react"],
+  "plugins": ["tailwindcss"],
+  "rules": {
+    "tailwindcss/no-custom-classname": "off",
+    "import/extensions": "off",
+    "@typescript-eslint/no-floating-promises": "off",
+    "@typescript-eslint/naming-convention": "off",
+    "@typescript-eslint/no-unsafe-assignment": "off",
+    "@typescript-eslint/ban-types": "off",
+    "n/file-extension-in-import": "off",
+    "unicorn/prevent-abbreviations": "off",
+    "@typescript-eslint/no-unsafe-argument": "off",
+    "@typescript-eslint/triple-slash-reference": "off",
+    "@typescript-eslint/consistent-type-definitions": "off",
+    "@typescript-eslint/no-confusing-void-expression": "off",
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/boolean-prop-naming": "off",
+    "react/prop-types": "off",
+    "capitalized-comments": "off",
+    "react/no-array-index-key": "off"
+  },
+  "settings": {
+    "tailwindcss": {
+      "callees": ["cn", "cva"],
+      "config": "tailwind.config.js"
+    }
+  },
+  "ignores": ["components/ui/**", "tailwind.config.js", "postcss.config.js"]
+}
