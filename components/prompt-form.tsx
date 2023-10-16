@@ -46,16 +46,6 @@ const allCommands: ICommandItem[] = [
     title: 'Check store analytics',
     group: 'other',
   },
-  {
-    icon: <Tag className="mr-2 h-4 w-4" />,
-    title: 'Create discount',
-    group: 'other',
-  },
-  {
-    icon: <FileDiff className="mr-2 h-4 w-4" />,
-    title: 'Create tax or fee',
-    group: 'other',
-  },
 ]
 
 export type PromptProps = {
