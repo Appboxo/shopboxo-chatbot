@@ -5,11 +5,9 @@ import {
   Plus,
   TrendingUp,
   Edit2,
-  Tag,
   Search,
   ChevronDown,
   ShoppingCart,
-  FileDiff,
 } from 'lucide-react'
 import { useLocalStorage } from 'react-use'
 import { useEnterSubmit } from '@/lib/hooks/use-enter-submit'
